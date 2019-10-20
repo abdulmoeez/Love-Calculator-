@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+.popup_popup{
+	display: none!important;
+}
+/*SOCIAL PLUIGNS*/
+.a2a_svg{
+	height: 80px!important;
+	width: 80px!important;	
+	margin-left: 10px;
+
+}
+
+.a2a_kit{
+	margin: 20px auto;
+}
+.a2a_dd{
+	display: none;
+}
+
+/**--SOCIAL PLUGINS END**/
+*{
+	font-family: 'Gloria Hallelujah', cursive;
+
+}
+.modal-backdrop{
+	opacity: 0.5!important;
+}
+
+.fa-heart{
+	color: darkred;
+}
+.card{
+	background: url(../images/back.jpg);
+
+}
+.heading{
+	font-size: 3rem;
+	margin-top: -10px;
+	text-shadow: 4px 4px #ff2828;
+    color: navy;
+    font-weight: 600;
+}
+form label{
+	font-size: 20px;
+	color: navy;
+	font-weight: 600;
+}
+form input{
+	background: #fafad2!important;
+}
+.input-group-text{
+	background: #fafad2!important;
+
+}
+
+
+/*ADMIN PAGE*/
+.banner{
+	object-fit: contain;
+	height: 350px;
+	display: block;
+	margin: 0 auto 10px auto;
+	width: 100%!important;
+}
+.admin-links{
+	font-size: 20px!important;
+}
+
+/*REGISTER PAGE*/
+.img-register{
+	margin: 10px auto;
+}
+.register-paragraph{
+	letter-spacing: 1px;
+	color: navy;
+	font-size: 25px;
+}
+.register-links{
+	margin-top: 20px;
+
+}
+.register-links li{
+	color: navy;
+	font-size: 22px;
+	font-weight: 600;
+
+}
+
+/*LOVE PAGE*/
+.insta-popup{
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important;
+    max-height: 47px;
+    color: white;
+    width: 100%;
+    margin:0 auto;
+    padding: 15px;
+    text-align: center;
+
+}
+.table th{
+	font-size: 24px;
+	background: navy;
+	color: white;
+	border:3px solid black;
+}
+.table td{
+	border:3px solid black;
+	font-size: 20px;
+	font-weight: 600;
+	background: wheat;
+}
+
+
+
+/*PRANK PAGE*/
+p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.prankPara1{
+	font-size: 3rem!important;
+}
+.prankPara{
+
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #222;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 0;
+    font-weight: 500;
+	font-size: 2rem;
+}
+hr{
+	color: white;
+	border: 1px white solid;
+}
+/*MAIN PAGE*/
+.mainImg{
+	display: block;
+}
+.prankSpan{
+	font-weight: 800;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-device-width: 600px){
+	.table td{
+		font-size: 50px!important;
+
+	}
+	.table th{
+
+		font-size: 50px!important;
+	}
+	.container{
+		max-width: 100%!important;
+	}
+	.mainImg{
+	height: 500px;
+}
+
+	.fa-heart{
+	font-size: 30px;
+}
+	.col-md-12{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.banner{
+		height: 500px;
+		margin: 20px auto;
+	}
+	.card{
+		min-height: 100vh;
+	}
+	.heading{
+		font-size: 6rem;
+	}
+	.register-paragraph{
+		font-size: 3rem;
+		margin-top: 20px;
+	}
+	.howWork{
+		font-size: 4rem;
+	}
+	p{
+		font-size: 3rem!important;
+	}
+	a{
+		font-size: 2rem!important;
+		padding: 30px 30px!important;
+	}
+	ul li{
+		font-size: 30px!important;
+		margin-top: 5px;
+		letter-spacing: .1em!important;
+	}
+	form{
+		margin-top: 30px!important;
+	}
+	form label{
+		font-size: 3rem;
+
+	}
+	form input{
+		height: 100px!important;
+		font-size: 2.5rem!important;
+		padding:30px 0;
+	}
+	button{
+		height: 90px;
+		font-size: 2.5rem!important;
+	}
+
+	.img-register{
+		height: 300px;
+		width: 400px;
+	}
+	#p1{
+		height: 80px;
+		margin-top: 30px;
+		font-size:2rem!important;
+
+	}
+	.table{
+	font-size: 50px;
+    margin-top: 50px!important;
+
+	}
+	.insta-popup{
+	max-height: 100px;
+	}
+	.social{
+	max-height: 100px!important;
+
+	}
+	.prankPara{
+		font-size: 3.5rem!important;
+		margin-top: 20px!important;
+	}
+	.prankPara1{
+		margin-bottom: 40px;
+		font-size: 4rem!important;
+		font-weight: 700;
+	}
+	.alert{
+		font-size: 2rem;
+		height: 80px;
+	}
+	.copyBtn{
+		height: 100px!important;
+		width: 300px!important;
+	}
+	.register-links li{
+		font-size: 2.5rem!important;
+	}
+
+
+}
+
+/*SOCIAL MEDIA ICONS*/
+
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.facebook {
+  background: #3B5998;
+  color: white!important;
+  text-align: center;
+}
+
+/* Twitter */
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+.whatsapp{
+	background: #25d366;
+	color: white;
+}
+.social{
+	    max-height: 47px;
+    color: white;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+
+}

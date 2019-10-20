@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^(main|admin|index|userInfo|love|prank)$ $1.php [L]
